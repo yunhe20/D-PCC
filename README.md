@@ -29,7 +29,7 @@ python setup.py
 These commands are tested on an ubuntu 16.04 system.
 
 ## Data Preparation 
-Download the [ShapeNetCore](https://shapenet.org/download/shapenetcore) v1 dataset and [SemanticKITTI](http://semantic-kitti.org/dataset.html#download) dataset and then divide them into non-overlapping blocks.
+First download the [ShapeNetCore](https://shapenet.org/download/shapenetcore) v1 and [SemanticKITTI](http://semantic-kitti.org/dataset.html#download) datasets, and then divide them into non-overlapping blocks.
 
 * ShapeNet
 ```
@@ -51,7 +51,7 @@ python prepare_shapenet.py --date_root path/to/shapenet
 python prepare_semantickitti.py --data_root path/to/semantickitti
 ```
 
-Please refer to the code files for the detailed usages and meanings of other arguments, and you can adjust them by yourself.
+Please refer to the associated code files for the detailed usages and meanings of other arguments (e.g. `cube_size`, `max_num`, etc), and you can adjust them by yourself.
 
 The final file structure is shown as follow:
 ```
@@ -118,12 +118,12 @@ Our code is built upon the following repositories: [DEPOCO](https://github.com/P
 
 If you find our project is useful, please consider citing:
 
-```
+<!-- ```
 @inProceedings{wei2020deepsfm,
   title={DeepSFM: Structure From Motion Via Deep Bundle Adjustment},
   author={Xingkui Wei and Yinda Zhang and Zhuwen Li and Yanwei Fu and Xiangyang Xue},
   booktitle={ECCV},
   year={2020}
 }
-```
+``` -->
 
