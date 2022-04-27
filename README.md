@@ -1,6 +1,6 @@
 # D-PCC
 
- [arXiv](https://arxiv.org/abs/1912.03264.pdf) | [Project Page](https://yunhe20.github.io/D-PCC) | [Code](https://github.com/yunhe20/D-PCC) 
+ [arXiv](https://github.com/yunhe20/D-PCC) | [Project Page](https://yunhe20.github.io/D-PCC) | [Code](https://github.com/yunhe20/D-PCC) 
 
 This is the PyTorch implementation of "Density-preserving Deep Point Cloud Compression" (CVPR 2022).
 
