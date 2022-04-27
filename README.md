@@ -1,4 +1,4 @@
-# DPCC
+# D-PCC
 
  [arXiv](https://arxiv.org/abs/1912.03264.pdf) | [Project Page](https://yunhe20.github.io/DPCC) | [Code](https://github.com/yunhe20/DPCC) 
 

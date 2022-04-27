@@ -17,8 +17,6 @@ class PointTransformerLayer(nn.Module):
     def __init__(self, in_fdim, out_fdim, args):
         super(PointTransformerLayer, self).__init__()
 
-        self.k = args.k
-
         self.w_qs = nn.Conv1d(in_fdim, args.hidden_dim, 1)
         self.w_ks = nn.Conv1d(in_fdim, args.hidden_dim, 1)
         self.w_vs = nn.Conv1d(in_fdim, args.hidden_dim, 1)
@@ -78,8 +76,6 @@ class PositionEmbeddingLayer(nn.Module):
     def __init__(self, args):
         super(PositionEmbeddingLayer, self).__init__()
 
-        self.k = args.k
-
         self.pre_nn = nn.Sequential(
             nn.Conv2d(4, args.hidden_dim, 1),
             nn.GroupNorm(args.ngroups, args.hidden_dim),
@@ -101,7 +97,8 @@ class PositionEmbeddingLayer(nn.Module):
         # (b, 3, m, k)
         knn_xyzs = index_points(k_xyzs, knn_idx)
         # (b, 3, m, k)
-        repeated_xyzs = q_xyzs[..., None].repeat(1, 1, 1, self.k)
+        k = knn_xyzs.shape[-1]
+        repeated_xyzs = q_xyzs[..., None].repeat(1, 1, 1, k)
 
         # (b, 3, m, k)
         direction = F.normalize(knn_xyzs - repeated_xyzs, p=2, dim=1)
@@ -217,8 +214,10 @@ class DownsampleLayer(nn.Module):
         return downsample_num, mean_distance, mask, knn_idx
 
 
-    def forward(self, xyzs, feats) :
+    def forward(self, xyzs, feats):
         # xyzs: (b, 3, n), features: (b, cin, n)
+        if self.k > xyzs.shape[2]:
+            self.k = xyzs.shape[2]
 
         sample_num = round(xyzs.shape[2] * self.downsample_rate)
         # (b, n, 3)
@@ -320,7 +319,6 @@ class SubPointConv(nn.Module):
         self.mode = args.sub_point_conv_mode
         self.hidden_dim = args.hidden_dim
         self.group_num = group_num
-        self.k = args.k
         self.group_in_fdim = in_fdim // group_num
         self.group_out_fdim = out_fdim // group_num
 
