@@ -94,17 +94,17 @@ The output files will be saved at `./output/experiment_id/ckpt` by default.
 * Position Compression
 ```
 # shapenet
-python test.py --dataset shapenet --model_path path/to/checkpoint
+python test.py --dataset shapenet --model_path path/to/model
 # semantickitti
-python test.py --dataset semantickitti --model_path path/to/checkpoint
+python test.py --dataset semantickitti --model_path path/to/model
 ```
 
 * Normal Compression
 ```
 # shapenet
-python test.py --dataset shapenet --compress_normal True --model_path path/to/checkpoint
+python test.py --dataset shapenet --compress_normal True --model_path path/to/model
 # semantickitti
-python test.py --dataset semantickitti --compress_normal True --model_path path/to/checkpoint
+python test.py --dataset semantickitti --compress_normal True --model_path path/to/model
 ```
 
 The decompressed patches and full point clouds will also be saved at `./output/experiment_id/pcd` by default.
