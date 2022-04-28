@@ -1,6 +1,6 @@
 # D-PCC
 
- [arXiv](https://github.com/yunhe20/D-PCC) | [Project Page](https://yunhe20.github.io/D-PCC) | [Code](https://github.com/yunhe20/D-PCC) 
+ [arXiv](http://arxiv.org/abs/2204.12684) | [Project Page](https://yunhe20.github.io/D-PCC) | [Code](https://github.com/yunhe20/D-PCC) 
 
 This is the PyTorch implementation of "Density-preserving Deep Point Cloud Compression" (CVPR 2022).
 
@@ -118,12 +118,12 @@ Our code is built upon the following repositories: [DEPOCO](https://github.com/P
 
 If you find our project is useful, please consider citing:
 
-<!-- ```
-@inProceedings{wei2020deepsfm,
-  title={DeepSFM: Structure From Motion Via Deep Bundle Adjustment},
-  author={Xingkui Wei and Yinda Zhang and Zhuwen Li and Yanwei Fu and Xiangyang Xue},
-  booktitle={ECCV},
-  year={2020}
+```
+@InProceedings{He_2022_CVPR,
+    author    = {He, Yun and Ren, Xinlin and Tang, Danhang and Zhang, Yinda and Xue, Xiangyang and Fu, Yanwei},
+    title     = {Density-preserving Deep Point Cloud Compression},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR),
+    year      = {2022}
 }
-``` -->
+```
 
