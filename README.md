@@ -122,7 +122,7 @@ If you find our project is useful, please consider citing:
 @InProceedings{He_2022_CVPR,
     author    = {He, Yun and Ren, Xinlin and Tang, Danhang and Zhang, Yinda and Xue, Xiangyang and Fu, Yanwei},
     title     = {Density-preserving Deep Point Cloud Compression},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR),
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
     year      = {2022}
 }
 ```
