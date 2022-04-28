@@ -190,8 +190,8 @@ def parse_train_args():
 
     parser.add_argument('--dataset', default='shapenet', type=str, help='shapenet or semantickitti')
     parser.add_argument('--batch_size', default=1, type=int, help='the performance will degrade if batch_size is larger than 1!')
-    parser.add_argument('--downsample_rate', default=[1/3, 1/3, 1/3], type=float, help='downsample rate')
-    parser.add_argument('--max_upsample_num', default=[8, 8, 8], type=int, help='max upsmaple number, reversely symmetric with downsample_rate')
+    parser.add_argument('--downsample_rate', default=[1/3, 1/3, 1/3], nargs='+', type=float, help='downsample rate')
+    parser.add_argument('--max_upsample_num', default=[8, 8, 8], nargs='+', type=int, help='max upsmaple number, reversely symmetric with downsample_rate')
     parser.add_argument('--bpp_lambda', default=1e-3, type=float, help='bpp loss coefficient')
     # normal compression
     parser.add_argument('--compress_normal', default=False, type=str2bool, help='whether compress normals')

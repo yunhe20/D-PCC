@@ -16,6 +16,7 @@ numpy==1.20.3
 open3d==0.9.0.0
 einops==0.3.2
 scikit-learn==1.0.1
+compressai
 pickle
 argparse
 ```
@@ -87,8 +88,22 @@ python train.py --dataset shapenet --compress_normal True
 # semantickitti
 python train.py --dataset semantickitti --compress_normal True
 ```
-You can manually adjust the `downsample_rate`, `bpp_lambda` and `quantize_latent_xyzs` arguments to achieve different compression ratios, please refer to the `./args/semantickitti_args.py` and `./args/shapenet_args.py` files for the details.
+
+You can manually adjust the `bpp_lambda`, `downsample_rate` and `quantize_latent_xyzs` arguments to achieve different compression ratios, please refer to the `./args/semantickitti_args.py` and `./args/shapenet_args.py` files for the details, and we also give some examples below.
 The output files will be saved at `./output/experiment_id/ckpt` by default.
+
+```
+# to increase the compression ratio, you can try either of the following commands
+python train.py --dataset shapenet --bpp_lambda 1e-2
+python train.py --dataset shapenet --downsample_rate 0.25 0.33 0.33
+# you can also adjust both bpp_lambda and downsample_rate arguments
+
+# to decrease the compression ratio, you can try any of the following commands
+python train.py --dataset shapenet --bpp_lambda 1e-4
+python train.py --dataset shapenet --downsample_rate 0.5 0.33 0.33
+python train.py --dataset shapenet --quantize_latent_xyzs False
+# you can also adjust multi-arguments simultaneously
+```
 
 ## Test
 * Position Compression

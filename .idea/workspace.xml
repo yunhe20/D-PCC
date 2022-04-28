@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b230bd1f-9976-4c04-b3b8-fb48ae37d08d" name="Default Changelist" comment="update">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/args/semantickitti_args.py" beforeDir="false" afterPath="$PROJECT_DIR$/args/semantickitti_args.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/args/shapenet_args.py" beforeDir="false" afterPath="$PROJECT_DIR$/args/shapenet_args.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="bfb38feb-a1e7-4b7f-a582-e03d616c3efd" />
+  <component name="ProjectId" id="1zWcvwBwL8ABlbbaSMUJCVyjpOj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\4D_Compression\cvpr" />
+      <recent name="D:\4D_Compression\cvpr\dataset" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.train">
+    <configuration name="debug" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cvpr" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debug.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="prepare_semantickitti" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cvpr" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prepare_semantickitti.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ren_bpp_chamfer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cvpr" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/metrics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/metrics/ren_bpp_chamfer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cvpr" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cvpr" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.debug" />
+        <item itemvalue="Python.ren_bpp_chamfer" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.prepare_semantickitti" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b230bd1f-9976-4c04-b3b8-fb48ae37d08d" name="Default Changelist" comment="" />
+      <created>1634267521388</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634267521388</updated>
+      <workItem from="1634267522515" duration="24809000" />
+      <workItem from="1634350449714" duration="90384000" />
+      <workItem from="1634738781666" duration="157558000" />
+      <workItem from="1635764046617" duration="28498000" />
+      <workItem from="1635917387735" duration="116553000" />
+      <workItem from="1636536044437" duration="67000" />
+      <workItem from="1636536122788" duration="27956000" />
+      <workItem from="1636630552035" duration="38904000" />
+      <workItem from="1636763867790" duration="35892000" />
+      <workItem from="1636899445036" duration="32962000" />
+      <workItem from="1637210241834" duration="48728000" />
+      <workItem from="1639130375452" duration="1482000" />
+      <workItem from="1639978350103" duration="13000" />
+      <workItem from="1640229282342" duration="13757000" />
+      <workItem from="1640526891683" duration="2804000" />
+      <workItem from="1642995290513" duration="40408000" />
+      <workItem from="1643592851548" duration="1205000" />
+      <workItem from="1643696265492" duration="1608000" />
+      <workItem from="1643699441665" duration="1037000" />
+      <workItem from="1645334316130" duration="2447000" />
+      <workItem from="1647593989361" duration="17636000" />
+      <workItem from="1650164649510" duration="19712000" />
+      <workItem from="1650266439652" duration="212504000" />
+      <workItem from="1651121126211" duration="2929000" />
+      <workItem from="1651130948975" duration="1069000" />
+    </task>
+    <task id="LOCAL-00001" summary="git commit -m 'update'&#10;git push -u origin master">
+      <created>1651121301464</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651121301464</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update">
+      <created>1651121502146</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651121502147</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git commit -m 'update'&#10;git push -u origin master" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="313" y="89" key="#Deployment" timestamp="1651131202895">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="313" y="89" key="#Deployment/0.0.1440.860@0.0.1440.860" timestamp="1651131202895" />
+    <state x="371" y="106" key="#Options" timestamp="1651131210964">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="371" y="106" key="#Options/0.0.1440.860@0.0.1440.860" timestamp="1651131210964" />
+    <state x="507" y="138" key="#Python" timestamp="1651130092835">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="507" y="138" key="#Python/0.0.1440.860@0.0.1440.860" timestamp="1651130092835" />
+    <state x="325" y="0" key="CommitChangelistDialog2" timestamp="1651130376681">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="325" y="0" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1651130376681" />
+    <state x="501" y="185" key="FileChooserDialogImpl" timestamp="1651130460371">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="501" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1651130460371" />
+    <state width="1398" height="254" key="GridCell.Tab.0.bottom" timestamp="1651121082674">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1398" height="254" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1651121082674" />
+    <state width="1398" height="254" key="GridCell.Tab.0.center" timestamp="1651121082673">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1398" height="254" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1651121082673" />
+    <state width="1398" height="254" key="GridCell.Tab.0.left" timestamp="1651121082672">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1398" height="254" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1651121082672" />
+    <state width="1398" height="254" key="GridCell.Tab.0.right" timestamp="1651121082673">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1398" height="254" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1651121082673" />
+    <state x="222" y="75" key="SettingsEditor" timestamp="1651130133973">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="222" y="75" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1651130133973" />
+    <state x="313" y="163" key="Vcs.Push.Dialog.v2" timestamp="1651121529501">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="313" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1651121529501" />
+    <state x="528" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1651121253028">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="528" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.860@0.0.1440.860" timestamp="1651121253028" />
+    <state x="422" y="161" width="594" height="536" key="find.popup" timestamp="1650965750255">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="422" y="161" width="594" height="536" key="find.popup/0.0.1440.860@0.0.1440.860" timestamp="1650965750255" />
+    <state x="562" y="214" key="refactoring.ChangeSignatureDialog" timestamp="1650458046319">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="562" y="214" key="refactoring.ChangeSignatureDialog/0.0.1440.860@0.0.1440.860" timestamp="1650458046319" />
+    <state x="383" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1650787463224">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="383" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1650787463224" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/cvpr$generate_shapenet.coverage" NAME="generate_shapenet Coverage Results" MODIFIED="1650461588750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataset" />
+    <SUITE FILE_PATH="coverage/cvpr$debug__1_.coverage" NAME="debug (1) Coverage Results" MODIFIED="1635654129523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cvpr$ren_bpp_chamfer.coverage" NAME="ren_bpp_chamfer Coverage Results" MODIFIED="1650941907664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/metrics" />
+    <SUITE FILE_PATH="coverage/cvpr$tmc3_normal.coverage" NAME="tmc3_normal Coverage Results" MODIFIED="1636735433288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cvpr$PSNR.coverage" NAME="PSNR Coverage Results" MODIFIED="1650357444957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/metrics" />
+    <SUITE FILE_PATH="coverage/cvpr$test_pretrain_SemanticKITTI.coverage" NAME="test_pretrain_SemanticKITTI Coverage Results" MODIFIED="1637417731249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/downstream/PolarSeg" />
+    <SUITE FILE_PATH="coverage/cvpr$prepare_semantickitti.coverage" NAME="prepare_semantickitti Coverage Results" MODIFIED="1650720672520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cvpr$tmc3.coverage" NAME="tmc3 Coverage Results" MODIFIED="1634455350567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpcc" />
+    <SUITE FILE_PATH="coverage/cvpr$week11_problem3.coverage" NAME="week11_problem3 Coverage Results" MODIFIED="1650292571628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../研一课程/python程序设计/code/week11" />
+    <SUITE FILE_PATH="coverage/cvpr$surface_reconstruct.coverage" NAME="surface_reconstruct Coverage Results" MODIFIED="1636815016529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/downstream" />
+    <SUITE FILE_PATH="coverage/cvpr$generate_shapenet__1_.coverage" NAME="generate_shapenet (1) Coverage Results" MODIFIED="1650538258093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cvpr$loss_utils.coverage" NAME="loss_utils Coverage Results" MODIFIED="1635562814501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/cvpr$dataset.coverage" NAME="dataset Coverage Results" MODIFIED="1650696626901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataset" />
+    <SUITE FILE_PATH="coverage/cvpr$generate_bin__1_.coverage" NAME="generate_bin (1) Coverage Results" MODIFIED="1636957931505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/downstream/PolarSeg" />
+    <SUITE FILE_PATH="coverage/cvpr$utils.coverage" NAME="utils Coverage Results" MODIFIED="1636643618832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/cvpr$colormap.coverage" NAME="colormap Coverage Results" MODIFIED="1637491913064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visualize" />
+    <SUITE FILE_PATH="coverage/cvpr$test.coverage" NAME="test Coverage Results" MODIFIED="1650787492953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cvpr$tmc3__1_.coverage" NAME="tmc3 (1) Coverage Results" MODIFIED="1634457006774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cvpr$visualize.coverage" NAME="visualize Coverage Results" MODIFIED="1637414581722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/downstream/PolarSeg" />
+    <SUITE FILE_PATH="coverage/cvpr$bpp_chamfer.coverage" NAME="bpp_chamfer Coverage Results" MODIFIED="1647597076713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/evaluation" />
+    <SUITE FILE_PATH="coverage/cvpr$xyz_test.coverage" NAME="xyz_test Coverage Results" MODIFIED="1636793621521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cvpr$draco.coverage" NAME="draco Coverage Results" MODIFIED="1637317550572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cvpr$decoder.coverage" NAME="decoder Coverage Results" MODIFIED="1650552123201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/cvpr$tmc3_xyz.coverage" NAME="tmc3_xyz Coverage Results" MODIFIED="1636768233996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cvpr$gpcc__1_.coverage" NAME="gpcc (1) Coverage Results" MODIFIED="1634444308777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpcc" />
+    <SUITE FILE_PATH="coverage/cvpr$layer.coverage" NAME="layer Coverage Results" MODIFIED="1650551882652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/cvpr$icosahedron2sphere.coverage" NAME="icosahedron2sphere Coverage Results" MODIFIED="1635489869370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/cvpr$train.coverage" NAME="train Coverage Results" MODIFIED="1650777077983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cvpr$normal_test.coverage" NAME="normal_test Coverage Results" MODIFIED="1636724871806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cvpr$rebutal.coverage" NAME="rebutal Coverage Results" MODIFIED="1643699523153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/evaluation" />
+    <SUITE FILE_PATH="coverage/cvpr$gpcc.coverage" NAME="gpcc Coverage Results" MODIFIED="1636371058352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpcc" />
+    <SUITE FILE_PATH="coverage/cvpr$generate_bin.coverage" NAME="generate_bin Coverage Results" MODIFIED="1637411906632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/downstream/PolarSeg" />
+    <SUITE FILE_PATH="coverage/cvpr$debug.coverage" NAME="debug Coverage Results" MODIFIED="1650959946880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

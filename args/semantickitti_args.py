@@ -34,8 +34,8 @@ def parse_semantickitti_args():
     parser.add_argument('--in_fdim', default=3, type=int, help='input dimension, may contain attributes')
     # model
     parser.add_argument('--k', default=16, type=int, help='knearest neighbor')
-    parser.add_argument('--downsample_rate', default=[1/3, 1/3, 1/3], type=float, help='downsample rate')
-    parser.add_argument('--max_upsample_num', default=[8, 8, 8], type=int, help='max upsmaple number, reversely symmetric with downsample_rate')
+    parser.add_argument('--downsample_rate', default=[1/3, 1/3, 1/3], nargs='+', type=float, help='downsample rate')
+    parser.add_argument('--max_upsample_num', default=[8, 8, 8], nargs='+', type=int, help='max upsmaple number, reversely symmetric with downsample_rate')
     parser.add_argument('--layer_num', default=3, type=int, help='downsample/upsmaple stage')
     parser.add_argument('--dim', default=8, type=int, help='feature dimension')
     parser.add_argument('--hidden_dim', default=64, type=int, help='hiddem dimension')
