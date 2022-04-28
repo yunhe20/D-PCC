@@ -23,7 +23,7 @@ def train(args):
     start = time.time()
 
     if args.batch_size > 1:
-        print('The performance will degrade if batch_size is larger than 1.')
+        print('The performance will degrade if batch_size is larger than 1!')
 
     if args.compress_normal == True:
         args.in_fdim = 6
