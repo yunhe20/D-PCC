@@ -50,7 +50,7 @@ def select_xyzs_and_feats(candidate_xyzs, candidate_feats, upsample_num):
 
 def multi_batch_select(candidate_xyzs, candidate_feats, upsample_num, cur_upsample_rate):
     '''
-    support multi_batch, but it may degrade the performance
+    support multi_batch, but it will degrade the performance
     :param candidate_xyzs: (b, 3, n, max_upsample_num)
     :param candidate_feats: (b, c, n, max_upsample_num)
     :param upsample_num: (b, n)
