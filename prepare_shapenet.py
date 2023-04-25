@@ -232,7 +232,7 @@ def generate_dataset(mode='train', dataset_name='shapenet', cube_size=20, min_nu
         print('----------------')
         print('valid patch number:', len(points))
         k = np.array(list(key.values()))
-        if len(points) == 0 or sum(k > 50000):
+        if len(points) == 0:
             print(20 * '***')
             invalid_path.append(path)
             continue
@@ -267,7 +267,7 @@ def parse_dataset_args():
     # minimum points number in each cube when testing
     parser.add_argument('--test_min_num', default=100, type=int, help='minimum points number in each cube when testing')
     # maximum points number in each cube
-    parser.add_argument('--max_num', default=50000, type=int, help='maximum points number in each cube')
+    parser.add_argument('--max_num', default=500000, type=int, help='maximum points number in each cube')
 
     args = parser.parse_args()
     return args

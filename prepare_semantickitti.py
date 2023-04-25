@@ -155,8 +155,7 @@ def generate_dataset(path_list, dataset_name='semantickitti', mode='train', cube
                 print('----------------')
                 print('valid patch number:', len(points))
                 k = np.array(list(key.values()))
-                # if len(points) == 0 :
-                if len(points) ==0 or sum(k>50000):
+                if len(points) == 0:
                     print(20*'***')
                     continue
 
@@ -183,7 +182,7 @@ def parse_dataset_args():
     # minimum points number in each cube when testing
     parser.add_argument('--test_min_num', default=100, type=int, help='minimum points number in each cube when testing')
     # maximum points number in each cube
-    parser.add_argument('--max_num', default=50000, type=int, help='maximum points number in each cube')
+    parser.add_argument('--max_num', default=500000, type=int, help='maximum points number in each cube')
 
     args = parser.parse_args()
     return args
@@ -203,7 +202,7 @@ if __name__ == '__main__':
     train_path, val_path = train_test_split(train_path, test_size=0.045)
     test_path = search_path(dataset_args.data_root, test_seq)
 
-    # 3. generate dataset
+    # 2. generate dataset
     generate_dataset(train_path, 'semantickitti', 'train', cube_size=dataset_args.cube_size, min_num=dataset_args.train_min_num,
                      max_num=dataset_args.max_num, save_path='./data/semantickitti')
     generate_dataset(val_path, 'semantickitti', 'val', cube_size=dataset_args.cube_size, min_num=dataset_args.train_min_num,
